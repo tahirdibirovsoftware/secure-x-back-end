@@ -3,7 +3,7 @@ import { config } from 'dotenv'
 config()
 
 const app = express()
-const PORT = 
+const PORT = 3000
 
 
-app.listen()
+app.listen(PORT, ()=>console.log(`Server running on ${PORT}`))
